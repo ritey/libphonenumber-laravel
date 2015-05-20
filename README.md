@@ -9,7 +9,7 @@ This is a Service Provider and Facade package for the PHP library libphonenumber
 To install libphonenumber-laravel as a Composer package, simply add this to your composer.json:
 
 ```json
-"ritey/libphonenumber-laravel": "dev-master"
+"ritey/libphonenumber-laravel": "1.0"
 ```
 
 ..and run `composer update`.  Once it's installed, if you're using Laravel 5, you can register the service provider in `app/config/app.php` in the `providers` array add :
