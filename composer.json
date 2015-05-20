@@ -1,0 +1,25 @@
+{
+    "name": "ritey/libphonenumber-laravel",
+    "description": "Service Provider for libphonenumber-for-php package",
+    "keywords": ["phonenumber", "phone", "mobile", "php" , "laravel"],
+    "homepage": "http://github.com/ritey/libphonenumber-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Wright",
+            "email": "dave@ritey.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.*|5.0.*",
+        "guzzlehttp/guzzle": "5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ritey\\LibPhoneNumberLaravel": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
