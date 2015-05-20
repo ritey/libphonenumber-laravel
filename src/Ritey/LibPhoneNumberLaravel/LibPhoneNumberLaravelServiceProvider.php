@@ -36,9 +36,9 @@ class LibPhoneNumberLaravelServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app->bind('libphonenumber', function ($app)
+		$this->app->singleton('libphonenumber', function ($app)
 		{
-			return new PhoneNumberUtil();
+			return PhoneNumberUtil::getInstance();
 		});
 
 		$this->app->alias('libphonenumber', 'libphonenumber\PhoneNumberUtil');
